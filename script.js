@@ -44,9 +44,9 @@ function rot13(encodedStr) {
 	   else{
 		   decodedArr.push(encodedStr.charAt(i));  
 	   }
-   }
+   } 
 	
-  return decodedArr.join(" "); //return decodedArr
+  return decodedArr.join(""); //return decodedArr
 }
 
 // You can test your code by running the above
